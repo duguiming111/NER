@@ -66,6 +66,6 @@ xxx: train/test/demo，默认为demo
 </table>
 
 BiLSTM+CRF测试:
-<img src=".imgs/demo.png">
+<img src="imgs/demo.png">
 ## 5、参考
 [1] https://github.com/Determined22/zh-NER-TF
