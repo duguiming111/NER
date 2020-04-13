@@ -28,7 +28,7 @@ if __name__ == "__main__":
     if os.path.exists(os.path.join(config.data_path, 'word2id.pkl')):
         pass
     else:
-        vocab_build(os.path.join(config.data_path, 'word2id.pkl'), os.path.join('.', config.train_path), 3)
+        vocab_build(os.path.join(config.data_path, 'word2id.pkl'), config.train_path, 3)
 
     # 字符的embedding
     word2id = read_dictionary(os.path.join(config.data_path, 'word2id.pkl'))
